@@ -1,0 +1,100 @@
+{
+    "servers": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "server_name": {
+                        "S": "DWH_DEFAULT"
+                    },
+                    "DB_HOST": {
+                        "S": "dwh-rs.company.com"
+                    },
+                    "DB_PORT": {
+                        "S": "1234"
+                    },
+                    "DB_SCHEMA": {
+                        "S": "DWH"
+                    },
+                    "DB_USER": {
+                        "S": "dwh_rw"
+                    },
+                    "DB_PASS": {
+                        "S": "jBsOtLQVhgWdW+YOq3V4B1D6ZIBjdQu5AXI6xeLdBFg="
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "server_name": {
+                        "S": "DWH_TENANT1"
+                    },
+                    "DB_HOST": {
+                        "S": "dwh-rs.company.com"
+                    },
+                    "DB_PORT": {
+                        "S": "1234"
+                    },
+                    "DB_SCHEMA": {
+                        "S": "DWH_TENANT1"
+                    },
+                    "DB_USER": {
+                        "S": "dwh_rw"
+                    },
+                    "DB_PASS": {
+                        "S": "bxf1BHZdALtQF77p9RopTTjSkqhsx9lVlL9OXqjnIlg="
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "server_name": {
+                        "S": "DWH_TENANT2"
+                    },
+                    "DB_HOST": {
+                        "S": "dwh-rs.company.com"
+                    },
+                    "DB_PORT": {
+                        "S": "1234"
+                    },
+                    "DB_SCHEMA": {
+                        "S": "DWH_TENANT2"
+                    },
+                    "DB_USER": {
+                        "S": "dwh_rw"
+                    },
+                    "DB_PASS": {
+                        "S": "6RxnBo+DdIGD81cIv57tlnDitDHTmd5HmCFqm/Z4Ttg="
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "server_name": {
+                        "S": "DWH_TENANT3"
+                    },
+                    "DB_HOST": {
+                        "S": "dwh-rs.company.com"
+                    },
+                    "DB_PORT": {
+                        "S": "1234"
+                    },
+                    "DB_SCHEMA": {
+                        "S": "DWH_TENANT3"
+                    },
+                    "DB_USER": {
+                        "S": "dwh_rw"
+                    },
+                    "DB_PASS": {
+                        "S": "4Lab+tIM7MguaMW/SDF38kJFIhpeC8JBc82V+lemgzE="
+                    }
+                }
+            }
+        }
+    ]
+}
