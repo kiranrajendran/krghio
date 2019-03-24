@@ -727,12 +727,12 @@ public boolean processRow(StepMetaInterface smi, StepDataInterface sdi) throws K
 
   int index = getInputRowMeta().size();
   
-  r[index++] = item.getStringSet("server_name");;
-  r[index++] =  item.getStringSet("DB_HOST");
-  r[index++] = item.getStringSet("DB_PORT");;
-  r[index++] = item.getStringSet("DB_SCHEMA");;
-  r[index++] = item.getStringSet("DB_USER");;
-  r[index++] = item.getStringSet("DB_PASS");;
+  r[index++] = item == null ? null : item.getStringSet("server_name");
+  r[index++] = item == null ? null : item.getStringSet("DB_HOST");
+  r[index++] = item == null ? null : item.getStringSet("DB_PORT");
+  r[index++] = item == null ? null : item.getStringSet("DB_SCHEMA");
+  r[index++] = item == null ? null : item.getStringSet("DB_USER");
+  r[index++] = item == null ? null : item.getStringSet("DB_PASS");
   
   putRow(data.outputRowMeta, r); 
 
